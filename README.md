@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# The notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### The application to manage notes (https://notes-lysenkodenys.vercel.app/) build in React JS + TypeScript + Vite
 
-Currently, two official plugins are available:
+<h5>This app allows you:</h5>
+<ul>
+<li>manage notes in your desktop</li>
+<li>add, edit, delete, notes </li>
+<li>filter notes by title and tag</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Sample:</p>
 
-## Expanding the ESLint configuration
+![123](https://github.com/LysenkoDenys/note-taking/assets/105970854/7a04e6f4-b7cc-4ede-985f-a9f617fe96cb)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<br/>
+<p>This project uses next plug-ins:</p>
+<ul>
+<li>https://www.npmjs.com/package/react-bootstrap</li>
+<li>https://www.npmjs.com/package/react-select</li>
+<li>https://www.npmjs.com/package/react-markdown</li>
 
-- Configure the top-level `parserOptions` property like this:
+</ul>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p>Build with bootstrap and totally adaptive to most popular devices</p>
