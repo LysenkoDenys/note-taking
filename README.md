@@ -4,7 +4,7 @@
 
 <h5>This app allows you:</h5>
 <ul>
-<li>manage notes in your desktop</li>
+<li>manage notes on your device</li>
 <li>add, edit, delete, notes </li>
 <li>filter notes by title and tag</li>
 </ul>
